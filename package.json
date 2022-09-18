@@ -1,0 +1,17 @@
+{
+  "name": "local-firestore-query",
+  "version": "1.0.0",
+  "description": "test firestore with queries in local",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-json-modules index.js"
+  },
+  "author": "yongtaek-lee",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "firebase-admin": "^9.11.1",
+    "firebase-functions": "^3.15.5"
+  },
+  "type": "module"
+}
