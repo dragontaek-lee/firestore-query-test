@@ -6,13 +6,11 @@ Execute firstore database queries to check out simple datas.
 Of course, you can use filters given by firestore database console, but it does not support many things such as multiple where(). This is a tool to overcome these limits.
 
 ## Setup
----
-Save your private key file below /cert.  
-get your key file from Firebase console, at Settings > Service Accounts.  
+Set your private key file below /cert.  
+If you don't have, get it from Firebase console at Settings > Service Accounts.  
 
 
 ## Usage example
----
 ### Get multiple document data in collection 
 ```js
 firestore()
@@ -38,5 +36,4 @@ firestore()
 ```
 
 ## License
----
 MIT
